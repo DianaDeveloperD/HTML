@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        div > p::first-letter{
+            font-weight: bold;
+            font-size: large;
+            font-style: italic;
+        }
+        div:nth-child(odd) {
+        background: grey;
+}
+        body{
+            background: darkgray;
+        }
+        div > p:last-of-type::after{
+            content: "...";
+        }
+        div > p {
+            padding: 12px;
+
+        }
+        div{
+            padding: 36px;
+        }
+ .modal-contenido{
+  background-color:hotpink;
+  width:100px;
+  padding: 20px 20px;
+  margin: 10% auto;
+  position: relative;
+}
+.modal{
+  background-color: hotpink;
+  position:fixed;
+  top:23;
+  right:0;
+  bottom:15;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}
+ </style>
+</head>
+<body>
+<a href="#miModal">Abrir Modal</a>
+<div id="miModal" class="modal">
+  <div class="modal-contenido">
+    <a href="#">Modal</a>
+    <h2>Mi primer Modal</h2>
+    <p>Primer modal sin utilizar JavaScript.</p>
+  </div>  
+</div>
+    <p>Soldadito Marinero</p>
+   <div> 
+    <p>Él camina despacito que las prisas no son buenas</p>
+    <p>En su brazo dobladita, con cuidado la chaqueta</p>
+    <p>Luego pasa por la calle dónde los chavales juegan</p>
+    <p>Él también quiso ser niño pero le pilló la guerra</p>
+</div>
+<div> 
+<p>Soldadito marinero conociste a una sirena</p>
+<p>De esas que dicen te quiero si ven la cartera llena</p>
+<p>Escogiste a la más guapa y a la menos buena</p>
+<p>Sin saber como ha venido te ha cogido la tormenta</p>
+</div>
+<div> 
+<p>Él quería cruzar los mares y olvidar a su sirena</p>
+<p>La verdad, no fue difícil cuando conoció a Mariela</p>
+<p>Que tenía los ojos verdes y un negocio entre las piernas</p>
+<p>Hay que ver que puntería, no te arrimas a una buena</p>
+</div>
+<div> 
+<p>Soldadito marinero conociste a una sirena</p>
+<p>De esas que dicen te quiero si ven la cartera llena</p>
+<p>Escogiste la más guapa y a la menos buena</p>
+<p>Sin saber como ha venido te ha cogido la tormenta</p>
+</div>
+<div> 
+<p>Después de un invierno malo, una mala primavera</p>
+<p>Dime por que estas buscando una lágrima en la arena</p>
+<p>Después de un invierno malo</p>
+</div>
+<p>https://www.letras.com/fito-fitipaldis/614056/</p>
+<p>Fito y Fitipaldis </p>
+</body>
+</html>
